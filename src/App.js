@@ -1,10 +1,11 @@
 import './App.css';
 import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
 function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
-      <h2 style={{ textAlign: 'center' }}>Proximamente agregaremos articulos!</h2>
+      <ItemListContainer></ItemListContainer>
     </div>
   );
 }
