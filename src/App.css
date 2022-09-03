@@ -23,5 +23,23 @@ a{
   margin-top: 20px;
   color: #ffffff;
 }
-
-
+.deshabilitado
+{
+    cursor: not-allowed;
+    pointer-events:none;
+}
+#button{
+  font-size: 1rem;
+  border: none;
+  color: #ffffff;
+  background-color: #202020;
+  padding: 10px;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+}
+.contador-container{
+  padding: 5px 30px;
+  font-size: 1rem;
+}
