@@ -33,13 +33,34 @@ a{
   border: none;
   color: #ffffff;
   background-color: #202020;
-  padding: 10px;
+  padding: 10px 20px;
 }
 .button-container{
   display: flex;
   justify-content: center;
 }
 .contador-container{
-  padding: 5px 30px;
+  padding: 10px 50px;
   font-size: 1rem;
 }
+main{
+  margin: 10px 20px;
+  text-align: center;
+}
+.perfil-card{
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 0;
+}
+.perfil-card img{
+  width: 200px;
+}
+.perfil-card-container{
+  display:inline-flex;
+  flex-wrap: wrap;
+}
+
