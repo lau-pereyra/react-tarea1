@@ -4,84 +4,96 @@ const data = [
         nombre: 'Tomas',
         precio: '$100',
         stock: 20,
-        imagen: 'https://robohash.org/1'
+        imagen: 'https://robohash.org/1',
+        categoria: 'rojo'
     },
     {
         id: 2,
         nombre: 'Arthur',
         precio: '$100',
         stock: 20,
-        imagen: "https://robohash.org/2"
+        imagen: "https://robohash.org/2",
+        categoria: 'naranja',
     },
     {
         id: 3,
         nombre: 'John',
         precio: '$100',
         stock: 20,
-        imagen: "https://robohash.org/3"
+        imagen: "https://robohash.org/3",
+        categoria: 'violeta',
     },
     {
         id: 4,
         nombre: 'Tomas',
         precio: '$100',
         stock: 20,
-        imagen: 'https://robohash.org/4'
+        imagen: 'https://robohash.org/4',
+        categoria: 'violeta',
     },
     {
         id: 5,
         nombre: 'Arthur',
         precio: '$100',
         stock: 20,
-        imagen: "https://robohash.org/5"
+        imagen: "https://robohash.org/5",
+        categoria: 'verde',
     },
     {
         id: 6,
         nombre: 'John',
         precio: '$100',
         stock: 20,
-        imagen: "https://robohash.org/6"
+        imagen: "https://robohash.org/6",
+        categoria: 'naranja',
     },
     {
         id: 7,
         nombre: 'Tomas',
         precio: '$100',
         stock: 20,
-        imagen: 'https://robohash.org/7'
+        imagen: 'https://robohash.org/7',
+        categoria: 'verde',
     },
     {
         id: 8,
         nombre: 'Arthur',
         precio: '$100',
         stock: 20,
-        imagen: "https://robohash.org/8"
+        imagen: "https://robohash.org/8",
+        categoria: 'gris',
     },
     {
         id: 9,
         nombre: 'John',
         precio: '$100',
         stock: 20,
-        imagen: "https://robohash.org/9"
+        imagen: "https://robohash.org/9",
+        categoria: 'rosa',
     },
     {
         id: 10,
         nombre: 'Tomas',
         precio: '$100',
         stock: 20,
-        imagen: 'https://robohash.org/10'
+        imagen: 'https://robohash.org/10',
+        categoria: 'verde',
     },
     {
         id: 11,
         nombre: 'Arthur',
         precio: '$100',
         stock: 20,
-        imagen: "https://robohash.org/11"
+        imagen: "https://robohash.org/11",
+        categoria: 'gris',
     },
     {
         id: 12,
         nombre: 'John',
         precio: '$100',
         stock: 20,
-        imagen: "https://robohash.org/12"
+        imagen: "https://robohash.org/12",
+        categoria: 'gris',
     },
 ]
 export default data;

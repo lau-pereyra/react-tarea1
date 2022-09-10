@@ -35,6 +35,9 @@ a{
   background-color: #202020;
   padding: 10px 20px;
 }
+#button:hover{
+  cursor: pointer;
+}
 .button-container{
   display: flex;
   justify-content: center;
@@ -63,4 +66,17 @@ main{
   display:inline-flex;
   flex-wrap: wrap;
 }
-
+.button-detalles{
+  border: none;
+  background-color: #202020;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.button-detalles:hover{
+  cursor: pointer;
+}
+.perfil-card-container-details{
+  display: flex;
+  justify-content: center;
+}
