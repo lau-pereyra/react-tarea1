@@ -1,21 +1,29 @@
 import { useState } from "react"
 
-const ItemCount = () => {
+const ItemCount = ({ stock, initial, onAdd }) => {
 
-    const [contador, setContador] = useState(0);
+    const [contador, setContador] = useState(initial);
+
     const suma = () => {
-        setContador(contador + 1)
+        if (contador < stock) {
+            setContador(contador + 1)
+        }
     }
     const resta = () => {
-        setContador(contador - 1)
+        if (contador > 1) {
+            setContador(contador - 1)
+        }
     }
     return (
-
-        <div className="button-container">
-            <button id="button" className={contador === 0 ? 'deshabilitado' : ''} onClick={resta}>-</button>
-            <div className="contador-container">{contador}</div>
-            <button id="button" className={contador === 20 ? 'deshabilitado' : ''} onClick={suma}>+</button>
-        </div >
+        <>
+            <p>Stock disponible: {stock}</p>
+            <div className="button-container">
+                <button id="button" disabled={stock === 0} onClick={resta}>-</button>
+                <div className="contador-container">{contador}</div>
+                <button id="button" disabled={stock === 0} onClick={suma}>+</button>
+            </div >
+            <button id="button-agregar" onClick={() => onAdd(contador)}>Agregar al carrito</button>
+        </>
     )
 
 }

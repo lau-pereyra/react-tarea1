@@ -35,6 +35,14 @@ a{
   background-color: #202020;
   padding: 10px 20px;
 }
+#button-agregar{
+  font-size: 1rem;
+  border: none;
+  color: #ffffff;
+  background-color: #202020;
+  padding: 10px 20px;
+  display: flex;
+}
 #button:hover{
   cursor: pointer;
 }

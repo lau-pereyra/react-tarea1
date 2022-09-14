@@ -1,4 +1,3 @@
-import ItemCount from "./ItemCount";
 import { Link } from 'react-router-dom'
 const Item = ({ item }) => {
     return (
@@ -6,7 +5,6 @@ const Item = ({ item }) => {
             <div className="perfil-card">
                 <img src={item.imagen} alt={item.nombre} />
                 <h1>{item.nombre}</h1>
-                <ItemCount></ItemCount>
                 <Link to={`/item/${item.id}`} >
                     <button className="button-detalles">Ver detalles</button>
                 </Link>
