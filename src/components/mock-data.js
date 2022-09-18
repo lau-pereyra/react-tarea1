@@ -2,7 +2,7 @@ const data = [
     {
         id: 1,
         nombre: 'Tomas',
-        precio: '$100',
+        precio: 100,
         stock: 20,
         imagen: 'https://robohash.org/1',
         categoria: 'rojo'
@@ -10,7 +10,7 @@ const data = [
     {
         id: 2,
         nombre: 'Arthur',
-        precio: '$100',
+        precio: 100,
         stock: 20,
         imagen: "https://robohash.org/2",
         categoria: 'naranja',
@@ -18,7 +18,7 @@ const data = [
     {
         id: 3,
         nombre: 'John',
-        precio: '$100',
+        precio: 100,
         stock: 20,
         imagen: "https://robohash.org/3",
         categoria: 'violeta',
@@ -26,7 +26,7 @@ const data = [
     {
         id: 4,
         nombre: 'Tomas',
-        precio: '$100',
+        precio: 100,
         stock: 20,
         imagen: 'https://robohash.org/4',
         categoria: 'violeta',
@@ -34,7 +34,7 @@ const data = [
     {
         id: 5,
         nombre: 'Arthur',
-        precio: '$100',
+        precio: 100,
         stock: 20,
         imagen: "https://robohash.org/5",
         categoria: 'verde',
@@ -42,7 +42,7 @@ const data = [
     {
         id: 6,
         nombre: 'John',
-        precio: '$100',
+        precio: 100,
         stock: 20,
         imagen: "https://robohash.org/6",
         categoria: 'naranja',
@@ -50,7 +50,7 @@ const data = [
     {
         id: 7,
         nombre: 'Tomas',
-        precio: '$100',
+        precio: 100,
         stock: 20,
         imagen: 'https://robohash.org/7',
         categoria: 'verde',
@@ -58,7 +58,7 @@ const data = [
     {
         id: 8,
         nombre: 'Arthur',
-        precio: '$100',
+        precio: 100,
         stock: 20,
         imagen: "https://robohash.org/8",
         categoria: 'gris',
@@ -66,7 +66,7 @@ const data = [
     {
         id: 9,
         nombre: 'John',
-        precio: '$100',
+        precio: 100,
         stock: 20,
         imagen: "https://robohash.org/9",
         categoria: 'rosa',
@@ -74,7 +74,7 @@ const data = [
     {
         id: 10,
         nombre: 'Tomas',
-        precio: '$100',
+        precio: 100,
         stock: 20,
         imagen: 'https://robohash.org/10',
         categoria: 'verde',
@@ -82,7 +82,7 @@ const data = [
     {
         id: 11,
         nombre: 'Arthur',
-        precio: '$100',
+        precio: 100,
         stock: 20,
         imagen: "https://robohash.org/11",
         categoria: 'gris',
@@ -90,7 +90,7 @@ const data = [
     {
         id: 12,
         nombre: 'John',
-        precio: '$100',
+        precio: 100,
         stock: 20,
         imagen: "https://robohash.org/12",
         categoria: 'gris',

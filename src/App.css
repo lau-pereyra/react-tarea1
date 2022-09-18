@@ -88,3 +88,8 @@ main{
   display: flex;
   justify-content: center;
 }
+.icon-number{
+  position: absolute;
+  top: 0;
+  right:250px;
+}

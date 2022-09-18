@@ -1,11 +1,14 @@
-import { useState } from "react"
+import { useContext, useState } from "react"
 import ItemCount from "./ItemCount"
+import { CartContext } from "../context/CartContext"
 
 export const ItemDetail = ({ item }) => {
     const [count, setCount] = useState(0)
+    const { addItem } = useContext(CartContext)
+
     const onAdd = (dato) => {
         setCount(dato)
-
+        addItem(item, dato)
     }
 
     return (
@@ -15,7 +18,7 @@ export const ItemDetail = ({ item }) => {
                 <p>{item.nombre}</p>
                 <p>{item.precio}</p>
                 <p>{count}</p>
-                <ItemCount stock={10} initial={1} onAdd={onAdd} />
+                <ItemCount stock={10} initial={0} onAdd={onAdd} />
             </div>
         </div>
     )
