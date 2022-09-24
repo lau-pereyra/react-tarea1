@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import data from './mock-data';
-import { ItemDetail } from "./ItemDetail";
+import data from '../mock-data'
+import { ItemDetail } from '../ItemDetail/ItemDetail'
 import { useParams } from 'react-router-dom'
 
 export const ItemDetailContainer = () => {

@@ -1,6 +1,6 @@
-import logo from '../logo.svg';
-import '../App.css';
-import { Icon } from './Icon';
+import logo from '../../logo.svg'
+import '../../App';
+import { Icon } from '../CartWidget/Icon';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
 const NavBar = () => {

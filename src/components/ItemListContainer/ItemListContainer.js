@@ -1,6 +1,6 @@
-import data from './mock-data';
+import data from '../mock-data';
 import { useState, useEffect } from 'react';
-import ItemList from './ItemList';
+import ItemList from '../ItemList/ItemList';
 import { useParams } from 'react-router-dom'
 
 const ItemListContainer = () => {

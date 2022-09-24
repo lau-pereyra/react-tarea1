@@ -25,7 +25,7 @@ const data = [
     },
     {
         id: 4,
-        nombre: 'Tomas',
+        nombre: 'Jack',
         precio: 100,
         stock: 20,
         imagen: 'https://robohash.org/4',
@@ -33,7 +33,7 @@ const data = [
     },
     {
         id: 5,
-        nombre: 'Arthur',
+        nombre: 'Phil',
         precio: 100,
         stock: 20,
         imagen: "https://robohash.org/5",
@@ -41,7 +41,7 @@ const data = [
     },
     {
         id: 6,
-        nombre: 'John',
+        nombre: 'Harry',
         precio: 100,
         stock: 20,
         imagen: "https://robohash.org/6",
@@ -49,7 +49,7 @@ const data = [
     },
     {
         id: 7,
-        nombre: 'Tomas',
+        nombre: 'Charlie',
         precio: 100,
         stock: 20,
         imagen: 'https://robohash.org/7',
@@ -57,7 +57,7 @@ const data = [
     },
     {
         id: 8,
-        nombre: 'Arthur',
+        nombre: 'Aaron',
         precio: 100,
         stock: 20,
         imagen: "https://robohash.org/8",
@@ -65,7 +65,7 @@ const data = [
     },
     {
         id: 9,
-        nombre: 'John',
+        nombre: 'Atreus',
         precio: 100,
         stock: 20,
         imagen: "https://robohash.org/9",
@@ -73,7 +73,7 @@ const data = [
     },
     {
         id: 10,
-        nombre: 'Tomas',
+        nombre: 'Arnold',
         precio: 100,
         stock: 20,
         imagen: 'https://robohash.org/10',
@@ -81,7 +81,7 @@ const data = [
     },
     {
         id: 11,
-        nombre: 'Arthur',
+        nombre: 'Benedict',
         precio: 100,
         stock: 20,
         imagen: "https://robohash.org/11",
@@ -89,7 +89,7 @@ const data = [
     },
     {
         id: 12,
-        nombre: 'John',
+        nombre: 'Craig',
         precio: 100,
         stock: 20,
         imagen: "https://robohash.org/12",
