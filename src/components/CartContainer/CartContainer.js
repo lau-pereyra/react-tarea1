@@ -61,27 +61,32 @@ export const CartContainer = () => {
                 <div>
                     {
                         productCartList.length > 0 ?
-                            <div>
-                                {productCartList.map(item => (
-                                    <div>
-                                        <p>{item.nombre}</p>
-                                        <p>Cantidad:{item.cantidad}</p>
-                                        <p>Precio c/u: €{item.precio}</p>
-                                        <p>Precio productos: €{item.cantidadPrecio}</p>
-                                        <button onClick={() => removeItem(item.id)}>Eliminar producto</button>
-                                    </div>
-                                ))}
-                                <button onClick={clear}>Vaciar el carrito</button>
-                                <h2>Precio total: €{getTotalPrecio()}</h2>
-                                <form onSubmit={sendOrder}>
-                                    <label>Nombre:</label>
-                                    <input type="text" />
-                                    <label>Telefono:</label>
-                                    <input type="text"></input>
-                                    <label>Email:</label>
-                                    <input type="email"></input>
-                                    <button type="submit">Enviar Orden</button>
-                                </form>
+                            <div className="background-cart">
+                                <div>
+                                    {productCartList.map(item => (
+                                        <div>
+                                            <div className="cart-items-container">
+                                                <img className="cart-item-image" src={item.imagen}></img>
+                                                <p>NFT: {item.nombre}</p>
+                                                <p>Cantidad: {item.cantidad}</p>
+                                                <p>Precio c/u: €{item.precio}</p>
+                                                <p>Precio total de los productos: €{item.cantidadPrecio}</p>
+                                            </div>
+                                            <button id="button" onClick={() => removeItem(item.id)}>Eliminar producto</button>
+                                        </div>
+                                    ))}
+                                    <button id="button" onClick={clear}>Vaciar el carrito</button>
+                                    <h2>Precio total: €{getTotalPrecio()}</h2>
+                                    <form onSubmit={sendOrder}>
+                                        <label>Nombre:</label>
+                                        <input type="text" />
+                                        <label>Telefono:</label>
+                                        <input type="text"></input>
+                                        <label>Email:</label>
+                                        <input type="email"></input>
+                                        <button id="button" type="submit">Enviar Orden</button>
+                                    </form>
+                                </div>
                             </div>
                             :
                             <>

@@ -93,3 +93,22 @@ main{
   top: 0;
   right:250px;
 }
+.cart-item-image{
+  width: 100px;
+}
+.cart-items-container{
+  display: flex;
+  align-items:center ;
+  border: 1px black solid;
+  max-width: 700px;
+  margin: 5px;
+}
+.cart-items-container p{
+  margin: 8px;
+}
+.background-cart{
+  margin: 10px;
+}
+.background-cart button{
+  margin: 5px;
+}

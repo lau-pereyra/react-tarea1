@@ -16,8 +16,8 @@ export const ItemDetail = ({ item }) => {
             <div className="perfil-card">
                 <img src={item.imagen} alt={item.nombre} />
                 <p>{item.nombre}</p>
-                <p>{item.precio}</p>
-                <p>{count}</p>
+                <p>Precio: €{item.precio}</p>
+                <p>Cantidad seleccionada: {count}</p>
                 <ItemCount stock={10} initial={0} onAdd={onAdd} />
             </div>
         </div>
